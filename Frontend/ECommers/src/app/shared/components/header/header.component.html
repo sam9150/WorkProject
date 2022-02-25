@@ -1,0 +1,57 @@
+ <!-- Toolbar
+ 
+ <div class="toolbar" role="banner">
+    <img
+      width="40"
+      alt="Angular Logo"
+      src="data:image;base64,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
+      "
+    />
+    <span>ECommerce</span>
+      <div class="spacer"></div>
+        <a class="Login" font-color="blue" >Login</a>
+        <a>
+          <mat-icon class="cart">shopping_cart</mat-icon> 
+        </a>
+        <a><span class="text">Cart</span></a>
+        
+
+        
+        
+  </div> -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
